@@ -1,0 +1,337 @@
+.main-tab-content {
+    
+}
+
+.main-tab-content .nav-tabs-holder {
+    min-width: 184px;
+    padding-left: 16px;
+    border-right: 1px solid #DADCE0;
+    position: fixed;
+    height: 100%;
+    background-color: #fff;
+    z-index: 9;
+}
+
+.main-tab-content .tab-content-main-holder {
+    margin-left: 184px;
+}
+
+.main-tab-content .nav-tabs-holder {
+    padding-top: 16px;
+}
+
+.main-tab-content .nav-tabs-holder .nav-item a {
+    height: 30px;
+    line-height: 15px;
+    color: #616161;
+    padding: 6px 0 6px 28px;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.main-tab-content .nav-tabs-holder .nav-item a.active {
+    background-color: #E8F0FD;
+    color: #3C4043;
+    font-weight: 600;
+}
+
+.main-tab-content .tab-section-holder  {
+    position: relative;
+}
+
+.main-tab-content .tab-section-holder .section-title {
+    padding: 12px 24px;
+    color: #3C4043;
+    font-size: 20px;
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: #ffffff;
+    font-weight: 500;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+.tab-section-holder .section-accordian-holder {
+    padding: 74px 24px 24px;
+}
+
+.section-accordian-holder .accordion-item {
+    border: 0;
+}
+
+.section-accordian-holder .accordion-header .accordion-button {
+    padding: 16px 0 16px 0;
+    background-color: #ffffff;
+    border-bottom: 2px solid #DADCE0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-accordian-holder .accordion-header .accordion-button::after {
+    background-image: url(./Image/arrow.svg);
+    background-size: 100%;
+    height: 36px;
+    width: 36px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.section-accordian-holder .accordion-header .accordion-button.collapsed::after {
+    background-image: url(./Image/arrow-grey.svg);
+    transform: rotate(180deg);
+}
+
+.section-accordian-holder .accordion-header .accordion-button.collapsed {
+    border-color: #DADCE0;
+}
+
+.section-accordian-holder .accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+}
+.section-accordian-holder .accordion-item:first-of-type .accordion-button {
+    padding-top: 0;
+}
+
+.section-accordian-holder .accordion-header .accordion-button {
+    border-color: #005BA6;
+}
+
+.section-accordian-holder .accordion-header .accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.section-accordian-holder .accordion-header .acc-title-holder .acc-title {
+    font-size: 20px;
+    color: #3C4043;
+    margin-bottom: 5px;
+}
+
+.section-accordian-holder .accordion-header .acc-title-holder .subtitle {
+    font-size: 12px;
+    color: #5F6368;
+}
+
+
+.section-accordian-holder .button-holder .btn-bulk-upload,  .section-accordian-holder .button-holder  .btn-save {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 16px;
+    vertical-align: middle;
+    height: 40px;
+}
+
+.section-accordian-holder .button-holder .btn-bulk-upload {
+    background-color: #ffffff;
+    color: #276EF1;
+    border: 1px solid #DADCE0;
+
+}
+
+.section-accordian-holder .button-holder .btn-bulk-upload:hover {
+    border-color: #276EF1;
+}
+
+
+.section-accordian-holder .button-holder .btn-bulk-upload img, .section-accordian-holder .button-holder  .btn-save img  {
+    margin-right: 8px;
+}
+
+.section-accordian-holder .button-holder  .btn-save  {
+    background-color: #276EF1;
+    color: #ffffff;
+}
+
+.section-accordian-holder .button-holder  .btn-save img {
+    vertical-align: top;
+}
+.section-accordian-holder .accordian-body-holder {
+    padding: 0 155px;
+}
+
+.section-accordian-holder .accordian-body-holder form .custom-label {
+    font-size: 14px;
+    color: #5F6368;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.section-accordian-holder .accordian-body-holder form input.custom-input, .section-accordian-holder .accordian-body-holder form select {
+    height: 44px;
+    border: 1px solid #DADCE0;
+    border-radius: 4px;
+    padding: 12px 16px;
+    font-size: 16px;
+}
+
+.section-accordian-holder .accordian-body-holder form input.custom-input:focus, .section-accordian-holder .accordian-body-holder form select:focus {
+    box-shadow: none;
+    border-color: #DADCE0;
+}
+
+.section-accordian-holder .accordian-body-holder form select {
+    background-image: url(./Image/arrow_drop.svg);
+    background-size: 24px 24px;
+}
+
+.section-accordian-holder .accordian-body-holder form select::placeholder {
+    color: #DADCE0;
+  }
+
+.blank-option {
+color: #DADCE0;
+/* Add other styles as needed */
+}
+
+.section-accordian-holder .accordian-body-holder form input.custom-input::placeholder {
+    color: #DADCE0;
+}
+
+.section-accordian-holder .accordian-body-holder form .mar-bottom-16 {
+    margin-bottom: 16px;
+}
+
+.section-accordian-holder .accordian-body-holder form .mar-bottom-27 {
+    margin-bottom: 27px;
+}
+
+.monthly-cycle-checkbox {
+    color: #3C4043;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.monthly-cycle-checkbox input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    box-shadow: none;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.section-accordian-holder .accordian-body-holder form .monthly-cycle-checkbox label {
+    vertical-align: sub;
+    margin-bottom: 0;
+    color: #3C4043;
+}
+
+.accordian-body-holder .custom-switch-wrap {
+    padding: 12px 8px 12px 16px;
+    background-color: #F7F7F7;
+    border-radius: 4px;
+    color: #3C4043;
+    transition: all 0.3s ease;
+}
+
+.accordian-body-holder .custom-switch-wrap.isChecked {
+    background-color: #F2F6FF;
+}
+
+.section-accordian-holder .accordian-body-holder .custom-switch-wrap label.custom-label {
+    color: #3C4043;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.custom-switch-wrap .form-switch .form-check-input {
+    width: 37px;
+    background-color: #dadce0;
+    border-color: #dadce0;
+    height: 14px;
+    background-image: none;
+    position: relative;
+    box-shadow: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.custom-switch-wrap .form-switch .form-check-input::after {
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: #5F6368;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: -4px;
+    left: 0;
+}
+
+.custom-switch-wrap .form-switch .form-check-input::before {
+    content: "-";
+    color: #ffffff;
+    position: absolute;
+    top: -15px;
+    left: 6px;
+    font-size: 25px;
+    height: 0;
+    display: block;
+    z-index: 1;
+}
+
+.custom-switch-wrap .form-switch .form-check-input:checked {
+    background-color: #8DB1F8;
+    border-color: #8DB1F8;
+}
+.custom-switch-wrap .form-switch .form-check-input:checked:before {
+    right: 7px;
+    left: auto;
+    content: "";
+    height: 8.5px;
+    width: 5px;
+    border-bottom: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    transform: rotate(45deg);
+    top: 1px;
+}
+
+.custom-switch-wrap .form-switch .form-check-input:checked::after {
+    right: 0;
+    left: auto;
+    background-color: #276EF1;
+}
+
+.imageUploadInfo .title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #3C4043;
+    margin-bottom: 4px;
+}
+
+.imageUploadInfo .subtitle {
+    color: #5F6368;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.imageUploadInfo .image-format-info {
+    color: #D7242E;
+    font-size: 12px;
+
+}
+
+.parachute-image-holder {
+    margin: 52px 24px 135px; 
+    width: 180px;
+    height: 110px;
+}
+
+.parachute-image-holder img {
+    width: 100%;
+}
+
+.nav-tabs-holder .arrow-button-holder {
+    position: absolute;
+    top: 88.3vh;
+    width: 100%;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #DADCE0;
+    text-align: right;
+}
+
+.nav-tabs-holder .arrow-button-holder button {
+    background-color: transparent;
+    border: 0;
+}

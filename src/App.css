@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-content {
+  height: calc(100vh - 64px);
+  margin-top: 64px;
+}
+
+.main-content .main-content-holder {
+  width: 100%;
+  margin-left: 72px;
+}
+
+.App {
+  position: relative;
+}

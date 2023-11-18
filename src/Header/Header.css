@@ -1,0 +1,99 @@
+.navbar-wrapper {
+    padding: 16px 25px;
+    height: 64px;
+    border: 1px solid #DADCE0;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    border-right: 0;
+    border-left: 0;
+}
+
+.navbar-wrapper .navbar-brand {
+    margin-right: 0;
+    padding-right: 57.5px;
+    position: relative;
+}
+
+.navbar-wrapper .navbar-brand::after {
+    content: "";
+    height: 40px;
+    width: 1px;
+    background-color: #DADCE0;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar-wrapper .client-wrap {
+    padding: 0 16.5px;
+    text-align: left;
+}
+
+.navbar-wrapper .client-wrap .cw-paycycle {
+    font-size: 14px;
+}
+
+
+.client-wrap .cw-client select {
+    border: 0;
+    outline: none;
+    position: relative;
+    appearance: none;
+    padding-right: 35px;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 0px;
+    padding-right: 35px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.client-wrap .cw-client select:focus-visible {
+    outline: none;
+}
+
+.navbar-wrapper .profile-menu-wrap .profile-initial-holder {
+    width: 32px;
+    height: 32px;
+    background-color: #1D4D40;
+    border-radius: 32px;
+}
+
+.navbar-wrapper .profile-menu-wrap .profile-initial-holder .initial {
+    color: #ffffff;
+    line-height: 32px;
+}
+
+.profile-menu-wrap .profile-menu-holder ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    display: block;
+    margin-right: 12px;
+}
+
+.profile-menu-holder ul li {
+    display: inline-block;
+    margin: 0 12px;
+    font-size: 10px;
+}
+
+.profile-menu-holder .icon-holder.notifications-icon-with-dot  {
+    position: relative;
+}
+
+.profile-menu-holder .icon-holder.notifications-icon-with-dot .notification-dot {
+    width: 6px;
+    height: 6px;
+    background-color: #D93025;
+    border-radius: 6px;
+    position: absolute;
+    right: 25px;
+    top: -2px;
+}
